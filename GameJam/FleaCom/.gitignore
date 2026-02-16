@@ -1,0 +1,52 @@
+# --- Unity Klasörleri (Asla yüklenmemeli) ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# --- MemoryCaptures (Çok büyük dosyalar) ---
+/[Mm]emoryCaptures/
+
+# --- IDE ve Editör Ayarları (Herkesin kendi ayarı kalsın) ---
+# Visual Studio / MonoDevelop
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln
+/*.user
+/*.unityproj
+/*.booproj
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# --- İşletim Sistemi Dosyaları ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Uzantılar ---
+# Unity'nin ürettiği geçici dosyalar
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- ÖNEMLİ NOT ---
+# Asla .meta dosyalarını ignore etmeyin! 
+# Unity dosyaları birbirine bağlamak için meta dosyalarını kullanır.
+# Eğer meta dosyaları gelmezse Mert'in bilgisayarında sahneler ve scriptler bozuk görünür.
+# !*.meta  <-- Bu satırı sakın eklemeyin, meta dosyaları GİTMELİ.
