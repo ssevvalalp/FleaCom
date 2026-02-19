@@ -51,8 +51,8 @@ public class FurManager : MonoBehaviour
     // Metodun parametrelerine 'out' ekledik
     private void GenerateXY(out int x, out int y)
     {
-        x = UnityEngine.Random.Range(-borderX, borderX + 1);
-        y = UnityEngine.Random.Range(-borderY, borderY + 1);
+        x = UnityEngine.Random.Range(-borderX, borderX);
+        y = UnityEngine.Random.Range(-borderY, borderY);
     }
 
     public bool CanSpawnFur(Vector3 position)
